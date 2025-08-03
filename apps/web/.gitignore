@@ -26,6 +26,7 @@
 .vercel
 .netlify
 .wrangler
+.cursor
 
 # Environment & local files
 .env*
