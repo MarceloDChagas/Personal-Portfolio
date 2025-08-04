@@ -143,19 +143,6 @@ export default function Home() {
           <span className="underline">{t.contact.email}</span>, {t.contact.connectText} <span className="underline">{t.contact.linkedin}</span>.
         </p>
       </section>
-
-      {/* Navigation Footer */}
-      <section className="py-6 flex justify-center gap-4">
-        <button className="p-2 bg-gray-800 text-white rounded hover:bg-gray-700">
-          &lt;
-        </button>
-        <button className="p-2 bg-gray-800 text-white rounded hover:bg-gray-700">
-          ⚙️
-        </button>
-        <button className="p-2 bg-gray-700 text-white rounded hover:bg-gray-600">
-          &gt;
-        </button>
-      </section>
     </AtmosphericGradient>
   );
 }
